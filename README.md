@@ -1,5 +1,9 @@
 # 🖊️ X-Y Pen Plotter
 
+> **Built by [Atharva Rajas](https://github.com/AtharvaRajas120799) and [Anandkadpe](https://github.com/Anandkadpe) as a collaborative project.** We designed, built, and programmed this pen plotter together from scratch. The code was originally published on Anand's repository and forked here for my portfolio. My contributions focused on hardware assembly & wiring (ESP32, motor driver, servo, hall effect sensors, custom X-Y frame), timing-based motor control tuning for drawing precision, and WiFi communication testing & debugging.
+
+---
+
 This is a simple yet effective **X-Y Pen Plotter** built using an **ESP32** and **two DC motors**. The system receives drawing coordinates over **WiFi** and uses **timing-based C++ control logic** to move the pen across the X and Y axes. A **servo motor** is used to lift or place the pen, and **hall effect sensors** help the system home itself before drawing.
 
 ## 🚀 Features
